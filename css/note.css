@@ -1,0 +1,77 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tags .tag {
+  display: inline-block;
+  margin: 2px;
+  color: #312559;
+  padding: 5px 10px;
+  border-radius: 0px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.photo-authors {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.photo-authors li {
+  text-align: center;
+}
+.photo-authors .main-author {
+  font-weight: bold;
+}
+
+.photo-add-new {
+  border: 2px solid #ff9e42;
+  border-radius: 0px;
+  color: #ff9e42;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.photo-add-new:hover {
+  background: #ff9e42;
+  color: #312559;
+}
+
+.option-buttons {
+  text-align: right;
+}
+.option-buttons .option-button {
+  background: none;
+  border-radius: 0px;
+  transition: 0.3s;
+  padding: 3px 6px;
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+}
+.option-buttons .edit-btn {
+  border: 2px solid #F39C12;
+  color: #F39C12;
+}
+.option-buttons .edit-btn:hover {
+  background: #F39C12;
+  color: #312559;
+}
+.option-buttons .delete-btn {
+  border: 2px solid #C0392B;
+  color: #C0392B;
+}
+
+.option-buttons .save-btn:hover {
+  background: #1c7430;
+  color: #312559;
+}
+
+.option-buttons .delete-btn:hover {
+  background: #C0392B;
+  color: #312559;
+}
+.option-buttons .save-btn {
+  border: 2px solid #1c7430;
+  color: #1c7430;
+}
+/*# sourceMappingURL=note.css.map */
