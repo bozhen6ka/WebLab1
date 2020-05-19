@@ -14,7 +14,7 @@ img{
 .tags-block .tags .tag {
   display: inline-block;
   margin: 2px;
-  color: #312559;
+  color: #ff1261;
   padding: 10px 15px;
   border-radius: 0px;
   text-decoration: none;
@@ -36,7 +36,7 @@ img{
   text-decoration: none;
 }
 .note .note-header h3 {
-  #312559-space: nowrap;
+  #ffc4e1-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 30px;
@@ -63,7 +63,7 @@ img{
 
 .photos:hover .note:not(:hover) {
   opacity: 0.5;
-  background: #312559;
+  background: #AFA1FF;
 }
 
 .add-new-note-btn {
@@ -72,14 +72,14 @@ img{
   height: 70px;
   bottom: 10px;
   right: 10px;
-  background: #312559;
+  background: #94BDFF;
   border-radius: 100%;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
   cursor: pointer;
   z-index: 1000;
 }
 .add-new-note-btn:hover {
-  background: #e6e6e6;
+  background: #8792E8;
 }
 .add-new-note-btn::after {
   content: "";

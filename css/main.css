@@ -1,6 +1,6 @@
 body {
-  font-family: "Poppins", Arial, sans-serif;
-  color: #212529;
+  font: Bold 10px Verdana, Arial, sans-serif;
+  color: #de186b;
   font-weight: 100;
 }
 
@@ -18,7 +18,7 @@ header {
 }
 
 .default-block {
-  background: #312559;
+  background: #DE94FF;
   padding: 20px;
   border-radius: 1px;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.3);
@@ -27,7 +27,7 @@ header {
   margin-bottom: 20px;
 }
 .default-block:hover {
-  background: #312559;
+  background: #B087E8;
 }
 
 .main-navbar .navbar-brand {
